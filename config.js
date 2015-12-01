@@ -4,7 +4,7 @@
 // If you really don't know how to do this... Run `node getserver.js URL`.
 // Fill in the URL of the client where `URL` is.
 // For example: `node getserver.js http://example-server.psim.us/`
-exports.server = 'sim.psim.us';
+exports.server = 'play.pokemonshowdown.com';
 exports.port = 8000;
 
 // This is the server id.
@@ -22,12 +22,12 @@ exports.pass = '';
 
 // The rooms that should be joined.
 // Joining Smogon's Showdown's Lobby is not allowed.
-exports.rooms = ['example room name', 'another example'];
+exports.rooms = ['Chess'];
 
 // Any private rooms that should be joined.
 // Private rooms will be moderated differently (since /warn doesn't work in them).
 // The bot will also avoid leaking the private rooms through .seen
-exports.privaterooms = [];
+exports.privaterooms = ['Swag'];
 
 // The character text should start with to be seen as a command.
 // Note that using / and ! might be 'dangerous' since these are used in
